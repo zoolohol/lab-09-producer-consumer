@@ -9,7 +9,10 @@
 #include <cstdlib>
 #include <iostream>
 #include <string>
+#include <utility>
+#include <regex>
 #include <beast/core/flat_buffer.hpp>
+#include "URL.h"
 
 using boost::asio::io_context;
 using tcp = boost::asio::ip::tcp;
@@ -23,5 +26,5 @@ using boost::beast::http::verb;
 using boost::beast::http::write;
 using boost::beast::http::field;
 using boost::beast::http::response;
-using boost::beast::http::dynamic_body
+using boost::beast::http::dynamic_body;
 using boost::beast::http::read;
