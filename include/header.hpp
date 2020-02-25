@@ -13,6 +13,7 @@
 #include <boost/beast/core.hpp>
 #include <boost/beast/http.hpp>
 #include <boost/beast/version.hpp>
+#include <thread_pool/thread_pool.hpp>
 #include "URL.h"
 
 using boost::asio::io_context;
